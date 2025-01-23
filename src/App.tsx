@@ -1,5 +1,5 @@
-import Header from './components/Cabecalho'
-import Hero from './components/Hero'
+import CabecalhoExport from './components/Cabecalho'
+import HeroExport from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
 
 import './global.css'
@@ -7,8 +7,9 @@ import './global.css'
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
+
+      <CabecalhoExport />
+    <HeroExport />
       <div className="container">
         <ListaVagas />
       </div>
