@@ -11,7 +11,6 @@ type Props = {
 
 const VagaExport = (props: Props) => (
   <Vaga>
-    <li>
       <h3>{props.titulo}</h3>
       <ul>
         <li>Localizacao: {props.localizacao}</li>
@@ -23,7 +22,6 @@ const VagaExport = (props: Props) => (
         <li>Requisitos: {props.requisitos.join(', ')}</li>
       </ul>
       <a href="#">Ver detalhes e candidatar-se</a>
-    </li>
   </Vaga>
 )
 

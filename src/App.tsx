@@ -11,7 +11,7 @@ function App() {
       <CabecalhoExport />
     <HeroExport />
       <div className="container">
-        <ListaVagas />
+        <ListaVagas  />
       </div>
     </>
   )

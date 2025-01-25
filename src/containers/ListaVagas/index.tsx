@@ -99,7 +99,6 @@ const ListaVagas = () => {
     <div>
       <FormVagas aoPesquisar={(termo: string) => setFiltro(termo)} />
       <ListaDeVagas>
-      <ul>
         {vagasFiltradas.map((vag) => (
           <Vaga
             key={vag.id}
@@ -112,7 +111,6 @@ const ListaVagas = () => {
             requisitos={vag.requisitos}
           />
         ))}
-      </ul>
       </ListaDeVagas>
     </div>
   )

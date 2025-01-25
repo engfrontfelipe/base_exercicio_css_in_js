@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-const Vaga = styled.form`
-  li {
+const Vaga = styled.li`
+
     border: 1px solid var(--cor-principal);
     background-color: var(--cor-secundaria);
     color: var(--cor-principal);
@@ -8,21 +8,20 @@ const Vaga = styled.form`
     transition: all ease 0.3s;
     border-radius: 8px;
 
-    :hover {
-    background-color: var(--cor-principal);
-    color: var(--cor-secundaria);
-
-    a {
-      border-color: var(--cor-principal);
-      background-color: var(--cor-secundaria);
-      color: var(--cor-principal);
-    }
-  }
-
     h3 {
       font-weight: bold;
       margin-bottom: 16px;
+    }ul{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+
     }
+    ul li{
+      margin-bottom: 8px;
+    }
+
     a {
       border-color: var(--cor-secundaria);
       background-color: var(--cor-principal);
@@ -40,7 +39,16 @@ const Vaga = styled.form`
         display: block;
       }
     }
-  }
+
+    &:hover{
+      background-color: var(--cor-principal );
+      color: var(--cor-secundaria);
+    }
+    &:hover a {
+      border-color: var(--cor-principal);
+      background-color: var(--cor-secundaria);
+      color: var(--cor-principal);
+    }
 
 
 `
